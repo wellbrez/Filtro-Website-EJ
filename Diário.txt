@@ -1,15 +1,17 @@
-Segunda-Feira: Estava no RJ, foquei no campeonato e não fiz nada do projeto.
-Terça-Feira: Estava no RJ, foquei no campeonato e não fiz nada do projeto.
-Quarta-Feira: Estava no RJ, foquei no campeonato e não fiz nada do projeto.
-Quinta-Feira: Estava no RJ, foquei no campeonato e não fiz nada do projeto. Nesse dia voltei
-para o ES, chegando na sexta-feira 2h da manhã.
+Segunda-Feira: Estava no RJ, foquei no campeonato e nï¿½o fiz nada do projeto.
+Terï¿½a-Feira: Estava no RJ, foquei no campeonato e nï¿½o fiz nada do projeto.
+Quarta-Feira: Estava no RJ, foquei no campeonato e nï¿½o fiz nada do projeto.
+Quinta-Feira: Estava no RJ, foquei no campeonato e nï¿½o fiz nada do projeto. Nesse dia voltei
+para o ES, chegando na sexta-feira 2h da manhï¿½.
 Sexta-Feira: Cheguei no ES, pesquisei sobre git e wireframe, que era a primeira entrega do projeto,
-entrei em contato com a Joana para ver o wireframe que ela fez, e fiz uma proposta. Logo após fui para
+entrei em contato com a Joana para ver o wireframe que ela fez, e fiz uma proposta. Logo apï¿½s fui para
 Guarapari, e fiquei sem internet e computador.
-Sábado: Não fiz nada do projeto, estava em Guarapari sem internet e PC
-Domingo: Não fiz nada do projeto enquanto estava em Guarapari sem internet e PC, e à noite 
+Sï¿½bado: Nï¿½o fiz nada do projeto, estava em Guarapari sem internet e PC
+Domingo: Nï¿½o fiz nada do projeto enquanto estava em Guarapari sem internet e PC, e ï¿½ noite 
 conversei com a Joana, que tinha feito uma mesclagem dos nossos wireframes.
-Segunda-Feira: Pesquisei um pouco sobre PHP, mas ainda não iniciei o projeto.
-Terça-Feira: Comecei a fazer curso online de PHP, reunião na CT com Joana e o pessoal do PP pra idéias
+Segunda-Feira: Pesquisei um pouco sobre PHP, mas ainda nï¿½o iniciei o projeto.
+Terï¿½a-Feira: Comecei a fazer curso online de PHP, reuniï¿½o na CT com Joana e o pessoal do PP pra idï¿½ias
 sobre o mockup
-Quarta-Feira: Aperfeiçoamento do mockup
+Quarta-Feira: Aperfeiï¿½oamento do mockup
+Quinta-Feira: Instalei o XAMPP no pc e vendo video aulas da udemy de php.
+Sexta-Feira:
