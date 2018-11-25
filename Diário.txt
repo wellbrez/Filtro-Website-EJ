@@ -1,4 +1,4 @@
-Segunda-Feira: Estava no RJ, foquei no campeonato e n�o fiz nada do projeto.
+﻿Segunda-Feira: Estava no RJ, foquei no campeonato e n�o fiz nada do projeto.
 Ter�a-Feira: Estava no RJ, foquei no campeonato e n�o fiz nada do projeto.
 Quarta-Feira: Estava no RJ, foquei no campeonato e n�o fiz nada do projeto.
 Quinta-Feira: Estava no RJ, foquei no campeonato e n�o fiz nada do projeto. Nesse dia voltei
@@ -14,4 +14,6 @@ Ter�a-Feira: Comecei a fazer curso online de PHP, reuni�o na CT com Joana e 
 sobre o mockup
 Quarta-Feira: Aperfei�oamento do mockup
 Quinta-Feira: Instalei o XAMPP no pc e vendo video aulas da udemy de php.
-Sexta-Feira:
+Sexta-Feira: Mais video-aulas de PhP
+Sábado: Vídeo aulas de SQL
+Domingo: Vídeo aulas de SQL
