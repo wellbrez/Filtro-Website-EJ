@@ -17,3 +17,5 @@ Quinta-Feira: Instalei o XAMPP no pc e vendo video aulas da udemy de php.
 Sexta-Feira: Mais video-aulas de PhP
 Sábado: Vídeo aulas de SQL
 Domingo: Vídeo aulas de SQL
+Segunda- Terça e Quarta : Enrolado com matérias, mas marquei reunião com Joana
+Quinta: Reunião com Joana, adiantamento de algumas partes e discussao sobre SQL
