@@ -20,7 +20,7 @@ if (!$conn) {
 $sql = "SELECT * FROM empresas";
 $result = mysqli_query($conn, $sql);
 $datas = array();
-$num_columns = mysqli_field_count($result);
+$num_columns = mysqli_field_count($conn);
 if ($num_columns>0)
 {
     while ($column = mysqli_fetch_assoc($result))
@@ -35,12 +35,12 @@ mysqli_close($conn);
 
 
 //Results
-for ($j=1;$j<=12 ;$j++)
+for ($j=1;$j<=$num_columns-5 ;$j++)
 {
 echo ("<div id = 'area".$j."' class='botaoarea_pai'  style='grid-area:".$j."a'
 onclick='boolAreas[".($j-1)."]=(boolAreas[".($j-1)."]+1)%2;Update_Resultados(4)'>
 <div class='botaoarea_filho'>
-Area ".$j."
+Area ".array_keys($datas)[$j]."
 </div>
 </div>");}
 ?>
