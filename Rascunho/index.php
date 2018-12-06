@@ -5,7 +5,7 @@
     <head>
     <link rel="stylesheet" type="text/css" href="Estilo.css">
     <script src="jquery-3.3.1.min.js"></script>
-    <script src="Funcoes_Update1.js"></script>
+    <script src="Funcoes_Update2.js"></script>
     <script>
     
     <?php 
@@ -24,7 +24,7 @@
     <body>
     
         <nav id="NavTitulo"></nav>
-        <div id="DivRegioes"></div>
+        <div id="DivRegioes" onclick='trocatitulo();'></div>
         <div id="DivAreas"></div>
         <div id="DivResultados"></div>
     </body>

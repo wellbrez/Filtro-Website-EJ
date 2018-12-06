@@ -1,5 +1,4 @@
 
-
 function Update_Resultados(narea) 
         {
         if (narea !=0) 
