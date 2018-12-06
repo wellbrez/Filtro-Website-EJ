@@ -1,7 +1,7 @@
 <!doctype Html>
 
-<?php include_once 'dbh.php';?>
 <?php
+include_once 'dbh.php';
 
 for ($numero_area=1;$numero_area<=sizeof($coluna_nome)-5 ;$numero_area++)
 {
