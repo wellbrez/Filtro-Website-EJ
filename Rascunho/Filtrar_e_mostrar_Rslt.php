@@ -1,39 +1,10 @@
 <!doctype Html>
+<?php include_once 'dbh.php';?>
 <?php
+
+
 $q = $_REQUEST["q"];
-
-// process to retrieve and filter 
-
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "empresas_juniores";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password,
- $database);
-
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-$sql = "SELECT * FROM empresas";
-$result = mysqli_query($conn, $sql);
-$datas = array();
-$num_rows = mysqli_num_rows($result);
-if ($num_rows>0)
-{
-    while ($row = mysqli_fetch_assoc($result))
-    {
-        $datas[] = $row;
-    }
-}
-mysqli_close($conn);
 $empresa_nome = '';
-
-
-
 //Results
 for ($i=1;$i<=$num_rows;$i++)
 {
