@@ -5,23 +5,24 @@
     <head>
     <link rel="stylesheet" type="text/css" href="Estilo.css">
     <script src="jquery-3.3.1.min.js"></script>
-    <script src="Funcoes_Update.js"></script>
+    <script src="Funcoes_Update1.js"></script>
     <script>
-    <?php
+    
+    <?php 
+    $boolAreasConteudo = '0';
+    for ($i=1;$i<$num_areas;$i++){$boolAreasConteudo.= ',0';}
     ?>
-    var boolAreas = [0,0,0,0];
+
+
+    var boolAreas = [<?php echo $boolAreasConteudo;?>];
     var boolRegioes = [0,0,0,0,0,0,0];
-    window.onload = Update_Areas(2);
+    window.onload = Update_Areas;
     
     </script>
         <title>Página rascunho</title>
     </head>
     <body>
     
-    <?php 
-    $boolAreaContent = '0';
-    for ($i=1;$i<=$num_columns;$i++){$boolAreaContent.= ',0';}
-    echo $boolAreaContent?>
         <nav id="NavTitulo"></nav>
         <div id="DivRegioes"></div>
         <div id="DivAreas"></div>

@@ -28,6 +28,7 @@ if ($num_columns>0)
         $coluna_nome[] = $linha['Field'];
     }
 }
+$num_areas = sizeof($coluna_nome)-5;
 
 $sql = "SELECT * FROM empresas";
 $result = mysqli_query($conn, $sql);
