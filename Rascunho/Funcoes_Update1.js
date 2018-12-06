@@ -31,7 +31,7 @@ function Update_Areas()
                 document.getElementById("NavTitulo").innerHTML = boolAreas;
             }
         };
-        xmlhttp.open("GET", "Mostrar_Areas.php?q=1", true);
+        xmlhttp.open("GET", "Mostrar_Areas.php", true);
         xmlhttp.send();
         Update_Resultados(0);
         }
