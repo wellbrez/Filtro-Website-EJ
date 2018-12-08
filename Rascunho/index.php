@@ -33,8 +33,12 @@
                 <li>potato</li>
             </ul>
         </nav>
-
+        <div id="DivTitulo">
+        <div id="linhapequena"></div><h1>Contrate uma EJ</h1><div id="linhagrande"></div>
+        
+        </div>
         <div id="DivRegioes" >
+        <p>+REGIÕES</p>
         <img src="espirito santo.png" class="imgmap" style="z-index:0" usemap="#image-map">
         <map name="image-map" id='Map'>
             <area onclick="Update_Resultados_Regiao(1)" alt="Norte" title="Norte" coords="69,117,89,117,91,124,98,122,104,132,115,127,107,118,118,110,133,108,142,107,152,117,168,120,175,126,186,134,192,129,189,110,189,91,190,75,196,58,145,25,137,21,122,20,115,17,108,27,99,27,92,22,85,27,95,35,96,43,85,39,78,43,66,46,67,52,61,57,61,67,76,69,73,86,82,92,83,104,77,107,69,106,63,103,56,104,56,112,64,112" shape="poly">

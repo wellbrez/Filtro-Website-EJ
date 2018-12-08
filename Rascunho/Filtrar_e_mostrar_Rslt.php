@@ -28,14 +28,13 @@ foreach ($arrayFiltro_areas as $test)
     
     $index++;
 }
-echo ("<p style='grid-area:title1'>+ Resultados</p>");
 if ($n_zeros == $num_areas)
 {
     for ($i=1;$i<=$num_rows;$i++)
     {
         echo ("<div id = 'elem".$i."' class='caixaresultado_pai'>
         <h1>".$datas[$i-1]['nome']."</h1>
-        <div class='caixaresultado_filho' style='grid-area:".$i."'>
+        <div class='caixaresultado_filho'>
         <h2><adress>EMAIL: <a href='mailto:".$datas[$i-1]['email']."'>".$datas[$i-1]['email']."</a></adress></h2>
         <h2><adress>TELEFONE: <a href='tel:".$datas[$i-1]['telefone']."'>".$datas[$i-1]['telefone']."</a></adress></h2>
         </div>
@@ -62,7 +61,7 @@ else
         
         echo ("<div id = 'elem".$areai."' class='caixaresultado_pai'>
         <h1>".$datas[$i]['nome']."</h1>
-        <div class='caixaresultado_filho' style='grid-area:".$areai."'>
+        <div class='caixaresultado_filho'>
         <h2><adress>EMAIL: <a href='mailto:".$datas[$i]['email']."'>".$datas[$i]['email']."</a></adress></h2>
         <h2><adress>TELEFONE: <a href='tel:".$datas[$i]['telefone']."'>".$datas[$i]['telefone']."</a></adress></h2>
         </div>

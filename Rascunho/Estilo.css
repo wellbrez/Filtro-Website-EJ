@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: Aller;
+     src: url("Fonte/Aller_Std_Lt.ttf");
+}
 body{
     background-color: white;
     display:grid;
@@ -6,12 +9,14 @@ body{
     width:100%;
     height:100%;
     font-size:11pt;
+    font-family:Aller;
+    margin-top:0;
+    margin-left:0;
     
-    grid-column-gap:0.5em;
-   grid-row-gap: 0.5em;
     grid-template-columns:1fr 3fr;
-    grid-template-rows:.5fr auto 2fr;
+    grid-template-rows: .5fr .5fr auto 2fr;
     grid-template-areas:
+    "nav nav"
     "titulo titulo"
     "area resultado"
     "regiao resultado";
@@ -19,19 +24,52 @@ body{
 
 #NavTitulo
 {
-    grid-area: titulo;
-    font-family: Aller;
+    grid-area: nav;
     color: white;
     width:100vw;
-    height: 5em;
+    height:5em;
     background-color:#D81B42;
+    display:inline;
 }
-
+#DivTitulo
+{
+    grid-area:titulo;
+    display:grid;
+    width:100%;
+    grid-template-columns:150px 260px auto;
+    grid-template-rows:100%;
+    grid-template-areas:
+    "linha1 titulo linha2";
+}
+#linhapequena{
+    position:relative;
+    width:100%;
+    height:5px;
+    background-color: #00FFFD;
+    grid-area:linha1;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#DivTitulo h1
+{
+    grid-area:titulo;
+    padding:20px;
+    color:#D81B42;
+}
+#linhagrande{
+    position:relative;
+    width:100%;
+    height:5px;
+    background-color: #00FFFD;
+    grid-area:linha2;
+    
+    margin-top:auto;
+    margin-bottom:auto;
+}
 #DivRegioes
 {
     grid-area:regiao;
-    font-family: Aller;
-    height:117%;
+    height:365px;
     width:350px;
     margin-right: 5px;
     margin-top: 10px;
@@ -48,7 +86,6 @@ body{
 #DivAreas
 {
     grid-area:area;
-    font-family: Aller;
     height:100%;
     width:350px;
     margin: 5px;
@@ -73,26 +110,16 @@ body{
 #DivResultados
 {
     grid-area:resultado;
-    font-family: Aller;
     height:100%;
     width:100%;
-    margin:20px;
     position:relative;
     background-color:white;
-    overflow:hidden;
-    display:grid;
-    grid-column-gap:0.5em;
-   grid-row-gap: 0.5em;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "title1 title1 title1 title1 title1"
-    " 1 2 3 4 5"
-    " 6 7 8 9 10"
-    " 11 12 13 14 15"
-    "16 17 18 19 20"
-    " 21 22 23 24 25";
+    overflow:auto;
+    display:flex;
+    flex-wrap:wrap;
 }
+#DivResultados p
+{margin-bottom:50px;}
 .caixaresultado_pai
         {
           position:relative;
@@ -100,7 +127,6 @@ body{
           width:200px;
           text-align: center;
           vertical-align:middle;
-          font-family: Aller;
           border-radius:5%;
           background-color:white;
           border-color:#D81B42;
@@ -108,11 +134,11 @@ body{
           border-width:1px;
           overflow:hidden;
           transition:color 0.4s;
+          margin:5px;
         }
 .caixaresultado_filho
   {
       position:absolute;
-      font-family: Aller;
       font-size:0.7em;
       top:100px;
       height:100px;
@@ -140,7 +166,6 @@ div.caixaresultado_pai:hover div.caixaresultado_filho
 .botaoarea_pai
 {position:relative;
 display:block;
-font-family: Aller;
 background-color:white;
 padding:5px;
 text-align:left;
@@ -161,7 +186,7 @@ margin:auto 0;
     width:200px;top:0;
     position:absolute;
     display:block;
-    margin: 0 45px;
+    margin: 0 70px;
 }
 #Map area
 {
