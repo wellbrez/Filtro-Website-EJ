@@ -1,16 +1,10 @@
-
 body{
     background-color: white;
     display:grid;
-    position:absolute;
     width:100%;
     height:100%;
-    font-size:11pt;
-    
-    grid-column-gap:0.5em;
-   grid-row-gap: 0.5em;
     grid-template-columns:1fr 3fr;
-    grid-template-rows:.5fr auto 2fr;
+    grid-template-rows:1fr 2fr 3fr;
     grid-template-areas:
     "titulo titulo"
     "area resultado"
@@ -28,55 +22,49 @@ body{
 {
     grid-area:regiao;
     height:100%;
-    width:25vw;
-    margin-right: 5px;
-    margin-top: 10px;
-    margin-left:5px;
+    width:100%;
+    border-radius:5%;
+    margin: 25px 10px 5px 10px;
     position:relative;
     background-color:white;
-    border: 2px solid;
+    border: 1px solid;
     border-color: #00FFFD;
-    border-radius:20px;
-    cursor:default;
-    user-select: none;
-    
 }
 #DivAreas
 {
+    font-family: Aller;
     grid-area:area;
     height:100%;
-    width:25vw;
-    margin: 5px;
+    width:100%;
+    border-radius:5%;
+    margin:10px;
     background-color:white;
     position: relative;
     display:grid;
-    grid-template-columns:8.1vw 8.1vw 8.1vw;
-    grid-template-rows:40px 30px 30px 30px 30px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "title title title"
     "1a 2a 3a"
     "4a 5a 6a"
     "7a 8a 9a"
     "10a 11a 12a";
      border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #00FFFD;
-    border-radius:20px;
-    cursor:default;
-    user-select: none;
 }
 #DivResultados
 {
     grid-area:resultado;
+    font-family: Aller;
     height:100%;
     width:100%;
-    margin:10px;
+    margin:20px;
     position:relative;
     background-color:white;
     overflow:hidden;
     display:grid;
     grid-column-gap:0.5em;
-   grid-row-gap: 0.5em;
+     grid-row-gap: 0.5em;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -88,26 +76,32 @@ body{
 }
 .caixaresultado_pai
         {
+          font-family: Aller;
           position:relative;
           height:100px;
           width:200px;
-          background-color:rgba(0,255,0,0.5);
+          border-radius:5%;
+          background-color:white;
+          border-color:#D81B42;
+          border-style:solid;
+          border-width:1px;
           overflow:hidden;
+          text-align:center;
           transition:color 0.4s;
-          border-radius:20px;
         }
 .caixaresultado_filho
   {
       position:absolute;
+      font-family: Aller;
+      border-radius:5%;
       top:100px;
       height:100px;
       width:200px;
-      background-color:white;
+      background-color:#D81B42;
       opacity:0;
       text-align: center;
       transition:transform cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s,
       opacity cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
-      border-radius:20px;
   }
   .caixaresultado_filho h2
   {font-size:12pt;}
@@ -121,25 +115,37 @@ div.caixaresultado_pai:hover div.caixaresultado_filho
     transform:translateY(-100px);
     color:black;
 }
-
+.botaoarea_filho
+{
+    position:relative;
+    height:85%;
+    width:90%;
+    margin:3px auto;
+    overflow:hidden;
+    background-color:rgba(0,0,0,0);
+    text-align:center;
+}
 .botaoarea_pai
 {position:relative;
 display:block;
+height:90%;
+width:90%;
+margin:5% 5% 5% 5%;
 background-color:white;
-padding:5px;
-text-align:left;
-margin:auto 0;
+text-align:center;
 
 }
 
-.botaoarea_pai:hover
+.botaoarea_pai:hover .botaoarea_filho
 {
+    
+    border-radius:25%;
     border-color:#FF1493;
     border-style:solid;
     border-width:1px;
+    height: 50%;
 }
-#imgmap
-{
-    height:100%;
-    width:auto;
-}
+#tal
+{width:20px;
+height:200px;
+color:white;}
