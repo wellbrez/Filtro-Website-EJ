@@ -30,12 +30,23 @@
     
         <nav id="NavTitulo">
             <ul>
-                <li>potato</li>
+                <img src = "logo.png" alt = "logo juniores">
+                <li> Contrate uma EJ </li>
+                <li> Contato</li>
+                <li> Blog </li>
+                <li> Nossos Produtos </li>
+                <li> Nossos Produtos </li>
+                <li> Home</li>
             </ul>
         </nav>
+        <p id = limpar> 
+            X Limpar Filtros
+        </p>
+        <p id = resultado>
+            Resultados:
+        </p>
         <div id="DivTitulo">
         <div id="linhapequena"></div><h1>Contrate uma EJ</h1><div id="linhagrande"></div>
-        
         </div>
         <div id="DivRegioes" >
         <p>+REGIÕES</p>

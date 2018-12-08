@@ -14,10 +14,11 @@ body{
     margin-left:0;
     
     grid-template-columns:1fr 3fr;
-    grid-template-rows: .5fr .5fr auto 2fr;
+    grid-template-rows: .5fr .5fr .3fr auto 2fr;
     grid-template-areas:
     "nav nav"
     "titulo titulo"
+    "limpar resultado_txt"
     "area resultado"
     "regiao resultado";
 }
@@ -28,8 +29,22 @@ body{
     color: white;
     width:100vw;
     height:5em;
-    background-color:#D81B42;
+    background-color:#d91b5b;
     display:inline;
+}
+ul {
+  list-style-type:none;
+  margin: 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d91b5b;
+}
+
+li {
+  margin: 10px; 
+  margin-top:20px;
+  float: right;
+  color:white;
 }
 #DivTitulo
 {
@@ -62,17 +77,40 @@ body{
     height:5px;
     background-color: #00FFFD;
     grid-area:linha2;
-    
     margin-top:auto;
     margin-bottom:auto;
+}
+
+#limpar{
+    grid-area: limpar;
+    background-color: #FFFC9D;
+    margin: 10px;
+    margin-left:auto; 
+    margin-right: auto;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    color: black;
+}
+
+#resultado{
+    color:gray;
+    grid-area: resultado_txt;
+    margin-left: 20px;
+    margin-right: auto;
+   
 }
 #DivRegioes
 {
     grid-area:regiao;
     height:365px;
     width:350px;
+    padding-left: 10px;
     margin-right: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left:5px;
     position:relative;
     background-color:white;
@@ -89,6 +127,7 @@ body{
     height:100%;
     width:350px;
     margin: 5px;
+    padding-left:10px;
     background-color:white;
     position: relative;
     display:grid;
