@@ -28,7 +28,6 @@ foreach ($arrayFiltro_areas as $test)
     
     $index++;
 }
-
 if ($n_zeros == $num_areas)
 {
     for ($i=1;$i<=$num_rows;$i++)
