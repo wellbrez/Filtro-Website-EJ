@@ -32,7 +32,7 @@ body{
     grid-area:regiao;
     font-family: Aller;
     height:117%;
-    width:300px;
+    width:350px;
     margin-right: 5px;
     margin-top: 10px;
     margin-left:5px;
@@ -50,12 +50,12 @@ body{
     grid-area:area;
     font-family: Aller;
     height:100%;
-    width:300px;
+    width:350px;
     margin: 5px;
     background-color:white;
     position: relative;
     display:grid;
-    grid-template-columns:8.1vw 8.1vw 8.1vw;
+    grid-template-columns:115px 115px 115px;
     grid-template-rows:40px 30px 30px 30px 30px;
     grid-template-areas:
     "title title title"
