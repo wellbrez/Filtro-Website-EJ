@@ -16,27 +16,24 @@ body{
     "area resultado"
     "regiao resultado";
 }
-
 #NavTitulo
 {
-    grid-area: titulo;
-    font-family: Aller;
-    color: white;
-    width:100vw;
-    height: 5em;
-    background-color:#D81B42;
+    grid-area:titulo;
+    height:100%;
+    width:100%;
+    background-color:pink;
 }
 
 #DivRegioes
 {
     grid-area:regiao;
-    font-family: Aller;
-    height:117%;
-    width:300px;
+    height:100%;
+    width:25vw;
     margin-right: 5px;
     margin-top: 10px;
     margin-left:5px;
     position:relative;
+    display:inline;
     background-color:white;
     border: 2px solid;
     border-color: #00FFFD;
@@ -48,9 +45,8 @@ body{
 #DivAreas
 {
     grid-area:area;
-    font-family: Aller;
     height:100%;
-    width:300px;
+    width:25vw;
     margin: 5px;
     background-color:white;
     position: relative;
@@ -73,10 +69,9 @@ body{
 #DivResultados
 {
     grid-area:resultado;
-    font-family: Aller;
     height:100%;
     width:100%;
-    margin:20px;
+    margin:10px;
     position:relative;
     background-color:white;
     overflow:hidden;
@@ -84,7 +79,7 @@ body{
     grid-column-gap:0.5em;
    grid-row-gap: 0.5em;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20px 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "title1 title1 title1 title1 title1"
     " 1 2 3 4 5"
@@ -98,31 +93,23 @@ body{
           position:relative;
           height:100px;
           width:200px;
-          text-align: center;
-          vertical-align:middle;
-          font-family: Aller;
-          border-radius:5%;
-          background-color:white;
-          border-color:#D81B42;
-          border-style:solid;
-          border-width:1px;
+          background-color:rgba(0,255,0,0.5);
           overflow:hidden;
           transition:color 0.4s;
+          border-radius:20px;
         }
 .caixaresultado_filho
   {
       position:absolute;
-      font-family: Aller;
-      font-size:0.7em;
       top:100px;
       height:100px;
       width:200px;
-      border-radius:5%;
-      background-color:#D81B42;
+      background-color:white;
       opacity:0;
       text-align: center;
       transition:transform cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s,
       opacity cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+      border-radius:20px;
   }
   .caixaresultado_filho h2
   {font-size:12pt;}
@@ -140,7 +127,6 @@ div.caixaresultado_pai:hover div.caixaresultado_filho
 .botaoarea_pai
 {position:relative;
 display:block;
-font-family: Aller;
 background-color:white;
 padding:5px;
 text-align:left;
@@ -153,15 +139,12 @@ margin:auto 0;
     border-color:#FF1493;
     border-style:solid;
     border-width:1px;
-    height: 60%;
 }
 .imgmap
 {
     height:350px;
-    width:200px;top:0;
+    width:200px;bottom:0;
     position:absolute;
-    display:block;
-    margin: 0 45px;
 }
 #Map area
 {
