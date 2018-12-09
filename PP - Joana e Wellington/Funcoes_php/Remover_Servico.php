@@ -6,6 +6,7 @@ $username = "root";
 $password = "";
 $database = "empresas_juniores";
 
+$valueremove = "`".$valueremove."`";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password,
  $database);
