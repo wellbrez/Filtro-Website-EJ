@@ -140,7 +140,7 @@ a{
 {
     grid-area:area;
     height:100%;
-    width:24em;
+    width:25.5em;
     margin: .35em;
     padding-left:1.5em;
     background-color:white;
@@ -226,13 +226,14 @@ div.caixaresultado_pai:hover div.caixaresultado_filho
 {position:relative;
 background-color:white;
 padding:0.03em;
-height: 2.5em;  
+height: 1.5em;  
 width:6em;
-text-align:left;
+text-align:center;
 margin:.5em;
 }
 #AreaTXT
-{width:100%;}
+{width:100%;
+margin-left: 1.2em;}
 .botaoarea:hover
 {
     border-color:#FF1493;
