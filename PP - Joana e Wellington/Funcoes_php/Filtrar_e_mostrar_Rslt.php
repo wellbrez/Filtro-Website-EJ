@@ -134,15 +134,20 @@ if ($n_zeros == $num_areas && $arrayfiltro_regioes==[0,0,0,0])
 else
 {
     $i_filtrada_areas = array();
-    foreach ($indexes1 as $m)
-    {
-        for ($i=0;$i<$num_rows;$i++)
+    for ($i=0;$i<$num_rows;$i++)
+    {   
+        $quantos_filtros_passaram=0;
+        foreach ($indexes1 as $m)
         {
             if ($datas[$i][$coluna_nome[$m+5]]==1)
             {
-                $i_filtrada_areas[]=$i;
+                $quantos_filtros_passaram++;
             }
         }
+        if ($quantos_filtros_passaram==sizeof($indexes1))
+            {
+                $i_filtrada_areas[]=$i;
+            }
     }
     $i_filtrada_areas = array_unique($i_filtrada_areas);
     if($n_zeros == $num_areas)
