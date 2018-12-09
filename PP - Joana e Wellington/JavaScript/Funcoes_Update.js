@@ -1,3 +1,11 @@
+function Notab(){
+var i=0;
+  abbrs = document.getElementsByClassName("notab");
+  tamanho = abbrs.length;
+for( i = 0; i < tamanho ; i++){
+    abbrs[i].tabIndex = -1;
+}
+}
 var regiaonome = ['norte','central','metropolitana','sul'];
 function Limpar_Filtros()
 {
@@ -48,6 +56,7 @@ function Update_Resultados()
     xmlhttp.open("GET", "Funcoes_php/Filtrar_e_mostrar_Rslt.php?q=" + boolAreas.toString()+"-"+ //CHAMANDO CODIGO PHP
     boolRegioes.toString(), true);
     xmlhttp.send();
+    //Notab();
 }
 function Update_Resultados_Area(narea) 
         {
@@ -60,6 +69,7 @@ function Update_Resultados_Area(narea)
                 {document.getElementById('area'+narea).style.border="";}
             }
         Update_Resultados();
+        Notab();
         }
 function Update_Areas()
         {

@@ -7,21 +7,22 @@
     <link rel="stylesheet" type="text/css" href="Css/Estilo.css">
     <script src="JavaScript/jquery-3.3.1.min.js"></script>
     <script src="JavaScript/Funcoes_Update.js"></script>
-
-
     <script type="text/javascript">
     <?php 
     $boolAreasConteudo = '0';
     for ($i=1;$i<$num_areas;$i++){$boolAreasConteudo.= ',0';}
-    ?>
-
+    ?> 
 
     var boolAreas = [<?php echo $boolAreasConteudo;?>];
     var boolRegioes = [0,0,0,0];
-    window.onload = Update_Areas;
-    
+    window.onload = function(){
+        Update_Areas();
+        Notab();
+    }
     </script>
-        <title>Página rascunho</title>
+    
+    
+        <title>Contrate uma EJ</title>
     </head>
     <body>
     

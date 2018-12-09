@@ -126,7 +126,7 @@ if ($n_zeros == $num_areas && $arrayfiltro_regioes==[0,0,0,0])
         <h1>".$datas[$i-1]['nome']."</h1><p>".$datas[$i-1]['regiao']."</p>
         <div class='caixaresultado_filho'>
         <h2><adress>Email: <a href='mailto:".$datas[$i-1]['email']."'>".$datas[$i-1]['email']."</a></adress></h2>
-        <h2><adress>Tel: <a href='tel:".$datas[$i-1]['telefone']."'>".$datas[$i-1]['telefone']."</a></adress></h2>
+        <h2/><adress class = 'notab'>Tel: <a href='tel:".$datas[$i-1]['telefone']."'>".$datas[$i-1]['telefone']."</a></adress></h2>
         </div>
         </div>");
     }
@@ -208,7 +208,7 @@ else
     {
         
         echo ("<div id = 'elem".$areai."' class='caixaresultado_pai'>
-        <h1>".$datas[$i]['nome']."</h1><p>".$datas[$i]['regiao']."</p>
+        <h1 >".$datas[$i]['nome']."</h1><p>".$datas[$i]['regiao']."</p>
         <div class='caixaresultado_filho'>
         <h2><adress>Email: <a href='mailto:".$datas[$i]['email']."'>".$datas[$i]['email']."</a></adress></h2>
         <h2><adress>Tel: <a href='tel:".$datas[$i]['telefone']."'>".$datas[$i]['telefone']."</a></adress></h2>
