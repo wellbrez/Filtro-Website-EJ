@@ -10,9 +10,6 @@
 
 
     <script type="text/javascript">
-    $(function() {
-    $('.map').maphilight();
-    });
     <?php 
     $boolAreasConteudo = '0';
     for ($i=1;$i<$num_areas;$i++){$boolAreasConteudo.= ',0';}
