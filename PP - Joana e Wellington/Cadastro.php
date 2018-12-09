@@ -13,13 +13,13 @@
     
         <nav id="NavTitulo">
             <ul>
-                <img src = "Imagens/Juniores.png" alt = "logo juniores">
-                <li> Contrate uma EJ </li>
-                <li> Contato</li>
-                <li> Blog </li>
-                <li> Nossos Produtos </li>
-                <li> Nossos Produtos </li>
-                <li> Home</li>
+            <img src = "Imagens/juniores.png" alt = "logo juniores">
+                <li> <a href = "#">Contrate uma EJ </a></li>
+                <li> <a href = "#"> Contato</a></li>
+                <li> <a href = "#"> Blog </a></li>
+                <li> <a href = "Cadastro.php"> Crie sua EJ</a> </li>
+                <li> <a href = "#"> Nossos Produtos </a></li>
+                <li> <a href = "index.php"> Home</a></li>
             </ul>
         </nav>
         <div id="DivTitulo">

@@ -28,13 +28,13 @@
     
         <nav id="NavTitulo">
             <ul>
-                <img src = "Imagens/juniores.png" alt = "logo juniores">
+            <img src = "Imagens/juniores.png" alt = "logo juniores">
                 <li> <a href = "#">Contrate uma EJ </a></li>
                 <li> <a href = "#"> Contato</a></li>
                 <li> <a href = "#"> Blog </a></li>
-                <li> <a href = "#"> Crie sua EJ</a> </li>
+                <li> <a href = "Cadastro.php"> Crie sua EJ</a> </li>
                 <li> <a href = "#"> Nossos Produtos </a></li>
-                <li> <a href = "#"> Home</a></li>
+                <li> <a href = "index.php"> Home</a></li>
             </ul>
         </nav>
         <p id = "limpar" onClick = "Limpar_Filtros()"> 
