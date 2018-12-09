@@ -229,7 +229,7 @@ div.caixaresultado_pai:hover div.caixaresultado_filho
 background-color:white;
 padding:0.03em;
 height: 1.5em;  
-width:6em;
+width:auto;
 text-align:center;
 margin:.5em;
 }
@@ -273,21 +273,21 @@ body{
     margin-right: 0;
     text-align:left;
     
-    grid-template-columns:1fr 3fr;
-    grid-template-rows: .5fr .5fr 1fr .3fr auto 2fr;
+    grid-template-columns:100%;
+    grid-template-rows: .5fr .5fr 1fr .3fr auto auto 2fr;
     grid-template-areas:
-    "nav nav"
-    "titulo titulo"
-    "area area"
-    "regiao regiao"
-    "limpar resultado_txt"
-    "resultado resultado";
+    "nav"
+    "titulo"
+    "area"
+    "regiao"
+    "limpar"
+    "resultado_txt"
+    "resultado";
 }    
 #DivAreas,#DivRegioes
 {
-    margin:auto;
-    width:100%;
-    height:100%;
+    margin-left:auto;
+    margin-right:auto;
 }
 #NavTitulo
 {

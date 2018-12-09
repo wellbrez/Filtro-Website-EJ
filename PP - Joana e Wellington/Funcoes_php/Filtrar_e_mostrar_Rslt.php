@@ -145,11 +145,10 @@ else
             }
         }
         if ($quantos_filtros_passaram==sizeof($indexes1))
-            {
-                $i_filtrada_areas[]=$i;
-            }
+        {
+            $i_filtrada_areas[]=$i;
+        }
     }
-    $i_filtrada_areas = array_unique($i_filtrada_areas);
     if($n_zeros == $num_areas)
 
     {
@@ -178,8 +177,8 @@ else
     {
         $regioes_filtro[]='sul';
     }
-    
-    
+     //regioes_filtro = ['norte','sul']
+     //i_filtradas_areas = [1,4,6]
     if (sizeof($regioes_filtro)==0)
     {
         $i_filtradas = $i_filtrada_areas;
@@ -187,9 +186,9 @@ else
     else
     {
         $i_filtradas = array();
-        foreach ($i_filtrada_areas as $index)
+        foreach ($i_filtrada_areas as $index) //$index = 1,4,6
         {
-            foreach ($regioes_filtro as $rgfiltro)
+            foreach ($regioes_filtro as $rgfiltro)  //$rgfiltro = 'norte','sul'
             {
                 if(in_array($datas[$index]['regiao'],$regiao[$rgfiltro]))
                 {

@@ -13,13 +13,13 @@ body{
     margin-top:0;
     margin-left:0;
     
-    grid-template-columns:1fr 3fr;
+    grid-template-columns:1fr 1fr;
     grid-template-rows: .3fr .3fr .3fr 10fr;
     grid-template-areas:
     "nav nav"
     "titulo titulo"
-    "botaointro_txt formulariointro_txt"
-    "area resultado";
+    "botao_empresas botao_serviços"
+    "formulario formulario";
 }
 
 #NavTitulo
@@ -70,8 +70,7 @@ li {
     height:.3em;
     background-color: #00FFFD;
     grid-area:linha1;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin-top:4em;
 }
 #DivTitulo h1
 {
@@ -85,8 +84,7 @@ li {
     height:.3em;
     background-color: #00FFFD;
     grid-area:linha2;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin-top:4em;
 }
 
 a{
@@ -143,21 +141,13 @@ a{
 }
 #DivFormulario
 {
-    grid-area:resultado;
+    grid-area:formulario;
     height:100%;
     width:100%;
     position:relative;
     background-color:white;
     overflow:auto;
-    display:grid;
-    grid-template-columns:8em 8em 8em;
-    grid-template-rows:3em 2em 2em 2em 2em;
-    grid-template-areas:
-    "title title title"
-    "1a 2a 3a"
-    "4a 5a 6a"
-    "7a 8a 9a"
-    "10a 11a 12a";
+    display:block;
 
 }
 #DivFormulario p
@@ -170,4 +160,60 @@ a{
     grid-area: botaointro_txt;
     margin-left: 1.5em;
     margin-right: auto;
+}
+
+select{
+text-align:center;
+width:auto;
+height:auto;
+font-size:13pt;
+overflow:hidden;
+margin:40px;
+margin-top:0;}
+input[type=submit]
+{
+    position:relative;
+    background-color:#D81B42;
+    color:white;
+    width:40%;
+    min-width:170px;
+    margin:5px;
+}
+input[type=text]
+{
+    width:40%;
+    min-width:170px;
+    height:auto;
+    margin:5px;
+}
+input[type=submit]:hover
+{opacity:0.5;}
+#form{
+overflow:hidden;
+height:100%;
+width:100%;
+display:grid;
+grid-template-rows:1fr 1fr 1fr 7fr;
+grid-template-columns:1fr 1fr;
+grid-template-areas:
+"listbox InputTxt"
+"listbox btAdd"
+"listbox btRmv"
+"listbox x";}
+#form2{
+    overflow:auto;
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 7fr;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+    "tabela tabela"
+    "tabela tabela"
+    "listbox btRmv"
+    "InputTxt btAdd";}
+table
+{
+    margin:auto;
+    overflow:auto;
 }
