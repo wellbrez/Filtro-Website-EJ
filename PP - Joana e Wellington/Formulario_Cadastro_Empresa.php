@@ -30,84 +30,84 @@
         <input id="txtemail" style='grid-area:emailtxt' type="text" value=""/>
         <input id="txtremove" style='grid-area:Rmvtxt' value="ID"/>
         <select id="txtregiao" style='grid-area:regiaotxt' name="Cidades"> 
+        <option>AFONSO CLAUDIO</option>
+<option>AGUA DOCE DO NORTE</option>
+<option>AGUIA BRANCA</option>
+<option>ALEGRE</option>
+<option>ALFREDO CHAVES</option>
+<option>ALTO RIO NOVO</option>
+<option>ANCHIETA</option>
+<option>APIACA</option>
+<option>ARACRUZ</option>
+<option>ATILIO VIVACQUA</option>
+<option>BAIXO GUANDU</option>
+<option>BARRA DE SAO FRANCISCO</option>
+<option>BOA ESPERANCA</option>
+<option>BOM JESUS DO NORTE</option>
+<option>BREJETUBA</option>
+<option>CACHOEIRO DE ITAPEMIRIM</option>
+<option>CARIACICA</option>
+<option>CASTELO</option>
+<option>COLATINA</option>
 <option>CONCEICAO DA BARRA</option>
-<option>PEDRO CANARIO</option>
+<option>CONCEICAO DO CASTELO</option>
+<option>DIVINO DE SAO LOURENCO</option>
+<option>DOMINGOS MARTINS</option>
+<option>DORES DO RIO PRETO</option>
+<option>ECOPORANGA</option>
+<option>FUNDAO</option>
+<option>GOVERNADOR LINDENBERG</option>
+<option>GUACUI</option>
+<option>GUARAPARI</option>
+<option>IBATIBA</option>
+<option>IBIRACU</option>
+<option>IBITIRAMA</option>
+<option>ICONHA</option>
+<option>IRUPI</option>
+<option>ITAGUACU</option>
+<option>ITAPEMIRIM</option>
+<option>ITARANA</option>
+<option>IUNA</option>
+<option>JAGUARE</option>
+<option>JERONIMO MONTEIRO</option>
+<option>JOAO NEIVA</option>
+<option>LARANJA DA TERRA</option>
+<option>LINHARES</option>
+<option>MANTENOPOLIS</option>
+<option>MARATAIZES</option>
+<option>MARECHAL FLORIANO</option>
+<option>MARILANDIA</option>
+<option>MIMOSO DO SUL</option>
 <option>MONTANHA</option>
 <option>MUCURICI</option>
-<option>ECOPORANGA</option>
-<option>PONTO BELO</option>
-<option>PINHEIROS</option>
-<option>AGUA DOCE DO NORTE</option>
-<option>BARRA DE SAO FRANCISCO</option>
-<option>MANTENOPOLIS</option>
-<option>VILA PAVAO</option>
-<option>AGUIA BRANCA</option>
-<option>NOVA VENECIA</option>
-<option>JAGUARE</option>
-<option>SAO MATEUS</option>
-<option>BOA ESPERANCA</option>
-<option>LINHARES</option>
-<option>SOORETAMA</option>
-<option>VILA VALERIO</option>
-<option>SAO GABRIEL DA PALHA</option>
-<option>ALTO RIO NOVO</option>
-<option>PANCAS</option>
-<option>SAO DOMINGOS DO NORTE</option>
-<option>GOVERNADOR LINDENBERG</option>
-<option>RIO BANANAL</option>
-<option>MARILANDIA</option>
-<option>COLATINA</option>
-<option>BAIXO GUANDU</option>
-<option>JOAO NEIVA</option>
-<option>IBIRACU</option>
-<option>SAO ROQUE DO CANAA</option>
-<option>ARACRUZ</option>
-<option>LARANJA DA TERRA</option>
-<option>AFONSO CLAUDIO</option>
-<option>BREJETUBA</option>
-<option>CONCEICAO DO CASTELO</option>
-<option>VENDA NOVA DO IMIGRANTE</option>
-<option>DOMINGOS MARTINS</option>
-<option>MARECHAL FLORIANO</option>
-<option>SANTA MARIA DE JETIBA</option>
-<option>ITARANA</option>
-<option>ITAGUACU</option>
-<option>SANTA TERESA</option>
-<option>FUNDAO</option>
-<option>SERRA</option>
-<option>VITORIA</option>
-<option>CARIACICA</option>
-<option>VIANA</option>
-<option>VILA VELHA</option>
-<option>GUARAPARI</option>
-<option>SANTA LEOPOLDINA</option>
-<option>IBATIBA</option>
-<option>IRUPI</option>
-<option>IUNA</option>
 <option>MUNIZ FREIRE</option>
-<option>IBITIRAMA</option>
-<option>DIVINO DE SAO LOURENCO</option>
-<option>DORES DO RIO PRETO</option>
-<option>GUACUI</option>
-<option>ALEGRE</option>
-<option>SAO JOSE DO CALCADO</option>
-<option>BOM JESUS DO NORTE</option>
-<option>MIMOSO DO SUL</option>
 <option>MUQUI</option>
-<option>JERONIMO MONTEIRO</option>
-<option>PRESIDENTE KENNEDY</option>
-<option>ATILIO VIVACQUA</option>
-<option>MARATAIZES</option>
-<option>ITAPEMIRIM</option>
-<option>RIO NOVO DO SUL</option>
-<option>CACHOEIRO DE ITAPEMIRIM</option>
-<option>CASTELO</option>
-<option>VARGEM ALTA</option>
-<option>ICONHA</option>
+<option>NOVA VENECIA</option>
+<option>PANCAS</option>
+<option>PEDRO CANARIO</option>
+<option>PINHEIROS</option>
 <option>PIUMA</option>
-<option>ANCHIETA</option>
-<option>ALFREDO CHAVES</option>
-<option>APIACA</option>
+<option>PONTO BELO</option>
+<option>PRESIDENTE KENNEDY</option>
+<option>RIO BANANAL</option>
+<option>RIO NOVO DO SUL</option>
+<option>SANTA LEOPOLDINA</option>
+<option>SANTA MARIA DE JETIBA</option>
+<option>SANTA TERESA</option>
+<option>SAO DOMINGOS DO NORTE</option>
+<option>SAO GABRIEL DA PALHA</option>
+<option>SAO JOSE DO CALCADO</option>
+<option>SAO MATEUS</option>
+<option>SAO ROQUE DO CANAA</option>
+<option>SERRA</option>
+<option>SOORETAMA</option>
+<option>VARGEM ALTA</option>
+<option>VENDA NOVA DO IMIGRANTE</option>
+<option>VIANA</option>
+<option>VILA PAVAO</option>
+<option>VILA VALERIO</option>
+<option>VILA VELHA</option>
+<option>VITORIA</option>
 </select>
     <p style = 'grid-area:nomelbl'> Nome da empresa </p>
     <p style = 'grid-area:telefonelbl'> Telefone de Contato </p>
